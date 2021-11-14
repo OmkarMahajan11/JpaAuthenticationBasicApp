@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-SpringSecurityJpaApplication<spring-security-jpa>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "mainClass": "com.example.springsecurityjpa.SpringSecurityJpaApplication",
+      "projectName": "spring-security-jpa",
+      "args": ""
+    }
+  ]
+}
