@@ -13,11 +13,11 @@ public class HomeResource {
 
   @GetMapping("/user")
   public String user() {
-    return "<h1>Welcome!</h1>";
+    return "<h1>Welcome User!</h1>";
   }
 
   @GetMapping("/admin")
   public String admin() {
-    return "<h1>Welcome!</h1>";
+    return "<h1>Welcome Admin!</h1>";
   }
 }

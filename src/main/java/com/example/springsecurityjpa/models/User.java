@@ -4,10 +4,8 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.Table;
 
-@Entity
-@Table
+@Entity(name = "user_")
 public class User {
   
   @Id
@@ -48,8 +46,6 @@ public class User {
   }
   public void setRoles(String roles) {
     this.roles = roles;
-  }
-
-  
+  }  
 }
 
